@@ -1,0 +1,32 @@
+CRITICAL - 2023-09-22 01:37:44 --> Undefined variable $product
+in APPPATH\Controllers\MainController.php on line 36.
+ 1 APPPATH\Controllers\MainController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\Lab1\\app\\Controllers\\MainController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->delete('9')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-22 01:56:16 --> Undefined variable $category
+in APPPATH\Views\products.php on line 21.
+ 1 APPPATH\Views\products.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\laragon\\www\\Lab1\\app\\Views\\products.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\MainController.php(44): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
+CRITICAL - 2023-09-22 01:58:02 --> Undefined variable $category
+in APPPATH\Views\products.php on line 21.
+ 1 APPPATH\Views\products.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\laragon\\www\\Lab1\\app\\Views\\products.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Lab1\\app\\Views\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('products', [], true)
+ 5 APPPATH\Controllers\MainController.php(44): view('products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Lab1\\public\\index.php')
